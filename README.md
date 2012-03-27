@@ -13,7 +13,7 @@ Start with a regular spine controller, and include.  This could be easily adapte
 <a data-click="hello_world">Hello World</a>
 ````
 
-data-<event_name> works, where event_name is the name of a standard jquery event.  Currently supported: click, submit, focus, change, keydown.  Additions here are trivial.
+data-event_name works, where event_name is the name of a standard jquery event.  Currently supported: click, submit, focus, change, keydown.  Additions here are trivial.
 
 
 ## Extra Features:
@@ -37,6 +37,7 @@ data-<event_name> works, where event_name is the name of a standard jquery event
 ```
 
 Use on a form or input element to have its data included.  Remember that the submit event specifically only gets triggered
+
 ```html
 <form data-submit="set_fridge">
 	<input name="refrigerator" value='open'>
@@ -92,6 +93,7 @@ Arguments can be seperated by commas, and will be given as strings as the first 
 ```
 
 Use on a form or input element to have its data included.  Remember that the submit event specifically only gets triggered
+
 ```html
 <form data-submit="set_fridge">
 	<input name="state, yellow" value='open'>
