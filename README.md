@@ -100,5 +100,13 @@ Use on a form or input element to have its data included.  Remember that the sub
 </form>
 ```
 
+### Data validation
+
+Currently all forms with be validated with jquery validator.  (This strict dependency should be made lax).
+
+### Rails-like responders
+
+Accessible in all methods are the commands get, post, and ajax.  These accept options to which will be mage in to ajax requests on the adjournment of the method.
+
 ## Contributions welcome
 [www.twitter.com/ehrlicp](www.twitter.com/ehrlicp)
