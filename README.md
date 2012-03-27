@@ -101,4 +101,4 @@ Use on a form or input element to have its data included.  Remember that the sub
 ```
 
 ## Contributions welcome
-[twitter.com/ehrlicp](twitter.com/ehrlicp)
+[www.twitter.com/ehrlicp](www.twitter.com/ehrlicp)
